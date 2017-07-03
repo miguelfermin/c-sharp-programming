@@ -1,0 +1,7 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/miguelfermin/.nuget/packages"
+    ]
+  }
+}

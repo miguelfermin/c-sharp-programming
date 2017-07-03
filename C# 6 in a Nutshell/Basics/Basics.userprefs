@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{22171C64-B394-4CB0-A862-40D637F833D7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Basics PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Advanced/Classes.cs">
+    <Files>
+      <File FileName="Advanced/Classes.cs" Line="21" Column="9" />
+      <File FileName="Advanced/Indexers.cs" Line="10" Column="1" />
+      <File FileName="Advanced/Program.cs" Line="56" Column="6" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Types PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
