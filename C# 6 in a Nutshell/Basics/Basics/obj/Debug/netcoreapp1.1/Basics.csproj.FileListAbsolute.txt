@@ -38,3 +38,13 @@
 /Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.AssemblyInfo.cs
 /Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.dll
 /Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.pdb
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/bin/Debug/netcoreapp1.1/Basics.deps.json
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/bin/Debug/netcoreapp1.1/Basics.runtimeconfig.json
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/bin/Debug/netcoreapp1.1/Basics.runtimeconfig.dev.json
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/bin/Debug/netcoreapp1.1/Basics.dll
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/bin/Debug/netcoreapp1.1/Basics.pdb
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.csprojResolveAssemblyReference.cache
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.csproj.CoreCompileInputs.cache
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.AssemblyInfo.cs
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.dll
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj/Debug/netcoreapp1.1/Basics.pdb

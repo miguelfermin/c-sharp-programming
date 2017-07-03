@@ -8,3 +8,13 @@
 /Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.AssemblyInfo.cs
 /Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.dll
 /Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.pdb
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/bin/Debug/netcoreapp1.1/Types.deps.json
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/bin/Debug/netcoreapp1.1/Types.runtimeconfig.json
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/bin/Debug/netcoreapp1.1/Types.runtimeconfig.dev.json
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/bin/Debug/netcoreapp1.1/Types.dll
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/bin/Debug/netcoreapp1.1/Types.pdb
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.csprojResolveAssemblyReference.cache
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.csproj.CoreCompileInputs.cache
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.AssemblyInfo.cs
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.dll
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj/Debug/netcoreapp1.1/Types.pdb

@@ -14533,10 +14533,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/Basics.csproj",
+      "projectUniqueName": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/Basics.csproj",
       "projectName": "Basics",
-      "projectPath": "/Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/Basics.csproj",
-      "outputPath": "/Users/miguelfermin/Reference/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj",
+      "projectPath": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/Basics.csproj",
+      "outputPath": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Basics/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
