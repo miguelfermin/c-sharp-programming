@@ -14533,9 +14533,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/Types.csproj",
-      "projectName": "Types",
-      "projectPath": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/Types.csproj",
+      "projectUniqueName": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/Advanced.csproj",
+      "projectName": "Advanced",
+      "projectPath": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/Advanced.csproj",
       "outputPath": "/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Basics/Advanced/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
