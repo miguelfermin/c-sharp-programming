@@ -8,5 +8,6 @@
   <ItemGroup>
     <Compile Remove="NameSpaces.cs" />
     <Compile Remove="Types.cs" />
+    <Compile Remove="Helpers.cs" />
   </ItemGroup>
 </Project>
