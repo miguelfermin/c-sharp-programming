@@ -1,11 +1,19 @@
 ﻿using System;
 
+using static System.Console;
+
 namespace Advanced
 {
 	class Program
 	{
 		static void Main(string[] args) {
-			Console.WriteLine("Hello World!");
+            TestDriveDelegates();
 		}
+
+        static void TestDriveDelegates() {
+			//Delegates.TestDriveDelegates();
+			//Delegates.TestDrivePluginMethods();
+            Delegates.TestDriveMulticastDelegate();
+        }
 	}
 }
