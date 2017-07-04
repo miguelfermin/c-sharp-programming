@@ -16,7 +16,8 @@ namespace Types
             //TestDriveNewVSOverride();
             //TestDriveObjectType();
             //TestDriveBoxingAndUnboxing();
-            TestDriveEnums();
+            //TestDriveEnums();
+            TestDriveGenerics();
 		}
 
         static void TestDriveClasses() {
@@ -158,7 +159,7 @@ namespace Types
         static void TestDriveObjectType() {
             // Because Stack works with the object Type, we can Push and Pop instances of any type
             // to and from the Stack.
-            Stack stack = new Stack();
+            ObjectStack stack = new ObjectStack();
             stack.Push("sausage");
             string s = (string)stack.Pop(); // downcast, so explicit cast is needed
             WriteLine(s);   // sausage
@@ -207,8 +208,32 @@ namespace Types
             bool isTop = (topSide == BorderSide.Top);
             WriteLine($"isTop: {isTop}");
         }
+
+        static void TestDriveGenerics() {
+            var strStack = new Stack<string>();
+            strStack.Push("hello");
+            strStack.Push("world");
+            strStack.PrintData();
+
+			var intStack = new Stack<int>();
+			intStack.Push(10);
+			intStack.Push(26);
+            intStack.Push(19);
+            intStack.Push(84);
+			intStack.PrintData();
+
+            WriteLine("\nTesing the Swap generic method\n");
+
+            int a = 10;
+            int b = 20;
+            WriteLine($"Before swap: a: {a}. b: {b}");
+
+            Generics.Swap(ref a, ref b);
+            WriteLine($"After swap:  a: {a}. b: {b}");
+
+            WriteLine("\nGeneric Constraints\n");
+
+            Generics.Combine(intStack, intStack).PrintData();
+        }
     }
 }
-
-
-
