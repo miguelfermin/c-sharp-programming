@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{44FFB2D3-55DE-4232-A3C7-FCBE9C9D594D}|Default">
   <MonoDevelop.Ide.ItemProperties.Basics PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Types/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Advanced/Lambda.cs">
     <Files>
-      <File FileName="Types/Classes.cs" Line="14" Column="1" />
-      <File FileName="Types/Indexers.cs" Line="1" Column="1" />
-      <File FileName="Types/Program.cs" Line="18" Column="44" />
+      <File FileName="Advanced/Program.cs" Line="11" Column="2" />
+      <File FileName="Advanced/Delegates.cs" Line="10" Column="1" />
+      <File FileName="Advanced/Events.cs" Line="1" Column="1" />
+      <File FileName="Advanced/Lambda.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

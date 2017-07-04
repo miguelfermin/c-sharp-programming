@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types", "Types\Types.csproj", "{44FFB2D3-55DE-4232-A3C7-FCBE9C9D594D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced", "Advanced\Advanced.csproj", "{588B821B-8FC4-4C13-A609-71F379B66762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{44FFB2D3-55DE-4232-A3C7-FCBE9C9D594D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44FFB2D3-55DE-4232-A3C7-FCBE9C9D594D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44FFB2D3-55DE-4232-A3C7-FCBE9C9D594D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588B821B-8FC4-4C13-A609-71F379B66762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588B821B-8FC4-4C13-A609-71F379B66762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588B821B-8FC4-4C13-A609-71F379B66762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588B821B-8FC4-4C13-A609-71F379B66762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
