@@ -14,9 +14,6 @@ namespace Advanced
 {
     public class Delegates
     {
-        // Properties
-        // ...
-
         // Square is compatible with any method that matches its signature
         //
         // short-hand syntax for:
@@ -55,6 +52,15 @@ namespace Advanced
             foreach (int i in values)
                 Write(i + " ");     // 1 4 9
         }
+
+		public static void TestDriveGenericDelegate() {
+			int[] values = { 1, 2, 3 };
+
+			Utils.Transform(values, Square);
+
+			foreach (int i in values)
+				Write(i + " ");     // 1 4 9
+		}
 
         public static void TestDriveMulticastDelegate() {
             // To monitor progress (see example in #region) create a multicasr delegate
@@ -151,6 +157,14 @@ namespace Advanced
                 p(i * 10);  // invoke delegate
                 Sleep(100); // simulate hard work
             }
+        }
+
+		// Generic delegates
+		public delegate T Transformer<T>(T arg);
+
+        public static void Transform<T>(T[] values, Transformer<T> t) {
+            for (int i = 0; i < values.Length; i++)
+                values[i] = t(values[i]);
         }
     }
 

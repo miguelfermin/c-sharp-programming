@@ -7,3 +7,4 @@
 /Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Advanced/obj/Debug/netcoreapp1.1/Advanced.AssemblyInfo.cs
 /Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Advanced/obj/Debug/netcoreapp1.1/Advanced.dll
 /Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Advanced/obj/Debug/netcoreapp1.1/Advanced.pdb
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Advanced/obj/Debug/netcoreapp1.1/Advanced.csprojResolveAssemblyReference.cache
