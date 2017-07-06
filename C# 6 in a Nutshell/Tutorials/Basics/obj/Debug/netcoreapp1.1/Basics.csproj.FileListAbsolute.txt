@@ -57,3 +57,4 @@
 /Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Basics/obj/Debug/netcoreapp1.1/Basics.AssemblyInfo.cs
 /Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Basics/obj/Debug/netcoreapp1.1/Basics.dll
 /Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Basics/obj/Debug/netcoreapp1.1/Basics.pdb
+/Users/miguelfermin/Education/C#/c-sharp-programming/C# 6 in a Nutshell/Tutorials/Basics/obj/Debug/netcoreapp1.1/Basics.csprojResolveAssemblyReference.cache

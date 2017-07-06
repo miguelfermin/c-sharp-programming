@@ -11,10 +11,11 @@ namespace Advanced
 		}
 
         static void TestDriveDelegates() {
-			//Delegates.TestDriveDelegates();
-			//Delegates.TestDrivePluginMethods();
+            //Delegates.TestDriveDelegates();
+            //Delegates.TestDrivePluginMethods();
             //Delegates.TestDriveMulticastDelegate();
-            Delegates.TestDriveGenericDelegate();
+            //Delegates.TestDriveGenericDelegate();
+            Delegates.TestDriveStandardEventPattern();
         }
 	}
 }
