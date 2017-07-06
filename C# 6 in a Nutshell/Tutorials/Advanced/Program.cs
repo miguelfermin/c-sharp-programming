@@ -1,13 +1,12 @@
 ﻿using System;
 
-using static System.Console;
-
 namespace Advanced
 {
 	class Program
 	{
 		static void Main(string[] args) {
-            TestDriveDelegates();
+            //TestDriveDelegates();
+            TestDriveEvents();
 		}
 
         static void TestDriveDelegates() {
@@ -15,7 +14,10 @@ namespace Advanced
             //Delegates.TestDrivePluginMethods();
             //Delegates.TestDriveMulticastDelegate();
             //Delegates.TestDriveGenericDelegate();
-            Delegates.TestDriveStandardEventPattern();
+        }
+
+        static void TestDriveEvents() {
+            Events.TestDriveStandardEventPattern();
         }
 	}
 }
