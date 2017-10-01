@@ -5,8 +5,8 @@ namespace Advanced
 	class Program
 	{
 		static void Main(string[] args) {
-            //TestDriveDelegates();
-            TestDriveEvents();
+            TestDriveDelegates();
+            //TestDriveEvents();
 		}
 
         static void TestDriveDelegates() {
