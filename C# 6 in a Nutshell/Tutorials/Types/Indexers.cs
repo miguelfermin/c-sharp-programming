@@ -44,7 +44,7 @@ namespace Types
         // WARNING: If a static constructor throws an unhandled exception, that type
         // becomes unusable for the life of the application.
 		static Sentence() {
-            WriteLine("Hey, initializing Sentence static constructor....\n");
+            WriteLine("Sentence static constructor....\n");
         }
     }
 }

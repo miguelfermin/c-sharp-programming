@@ -9,7 +9,7 @@ using MyStringBuilder = System.Text.StringBuilder;
 namespace Basics {
 	class Program {
 		static void Main(string[] args) {
-			//StringBasics();
+			StringBasics();
 			//ClassesBasics();
 			//ValueTypeBasics();
 			//ReferenceTypeBasics();
@@ -21,7 +21,7 @@ namespace Basics {
 			//OptionlParametersBasics();
 			//TestNullCoalescingOperator();
 			//TestNullConditionalOperator();
-			TestIterationStatements();
+			//TestIterationStatements();
 		}
 
 		static void StringBasics() {
@@ -67,28 +67,31 @@ namespace Basics {
 		}
 
 		static void ValueTypeBasics() {
+            WriteLine("\nValue Type Basics\n");
 			Point p1 = new Point();
 			p1.x = 7;
 
 			Point p2 = p1;
 
-			WriteLine("\np1.x: " + p1.x);
-			WriteLine("p2.x: " + p2.x);
+            WriteLine($"p1.x: { p1.x }");
+            WriteLine($"p2.x: { p2.x }");
 
 			p1.x = 9;
 
-			WriteLine("p1.x: " + p1.x);
-			WriteLine("p2.x: " + p2.x);
+			WriteLine($"p1.x: { p1.x }");
+			WriteLine($"p2.x: { p2.x }");
 		}
 
 		static void ReferenceTypeBasics() {
+            WriteLine("\nReference Type Basics\n");
+
 			PointClass p1 = new PointClass();
 			p1.x = 7;
 
 			PointClass p2 = p1;
 
-			WriteLine("\np1.x: " + p1.x);
-			WriteLine("p2.x: " + p2.x);
+            WriteLine($"p1.x: { p1.x }");
+            WriteLine($"p2.x: { p2.x }");
 
 			p1.x = 9;
 
@@ -143,7 +146,7 @@ namespace Basics {
 			// default values. The default value for a type is the result of a bitwise zeroing of memory.
 			int[] a = new int[1000];
 			Write("\n");
-			WriteLine(a[123]); // 0
+            WriteLine($"default memory initialization, default val: { a[123] }"); // 0
 
 			// Rectangular Arrays
 
@@ -179,7 +182,7 @@ namespace Basics {
 			// invalid index:
 
 			int[] arr = new int[3];
-			arr[3] = 1; // this throws an IndexOutOfRangeException
+			//arr[3] = 1; // this throws an IndexOutOfRangeException
 		}
 
 		static void VariablesAndParametersBasics() {
@@ -211,7 +214,6 @@ namespace Basics {
 			Bar(ref x);
 			WriteLine("Bar(x) = " + x);
 
-
 			WriteLine("\nThe \"out\" modifier");
 			string a, b;
 
@@ -221,11 +223,11 @@ namespace Basics {
 		}
 
 		static void ParamsModifierBasics() {
-			int total = sum(1, 2, 3, 4);
+			int total = GetSumOf(1, 2, 3, 4);
 			WriteLine("Total1: " + total);
 
 			// You can also supply a params argument as an array
-			int total2 = sum(new int[] { 1, 2, 3, 4 });
+			int total2 = GetSumOf(new int[] { 1, 2, 3, 4 });
 			WriteLine("Total2: " + total2);
 		}
 
@@ -233,6 +235,78 @@ namespace Basics {
 			FooOpt();
 			FooOpt(1);
 			FooOpt(3, 6);
+		}
+
+		static void TestNullCoalescingOperator() {
+			// Null-Coalescing Operator
+			//
+			// The ?? operator is the null-coalescing operator.
+			// It says "If the operand is non-null, give it to me; otherwise,
+			// give me a default value. For example:
+			
+            string s1 = null;
+			string s2 = s1 ?? "nothing";    // s2 evaluates to "nothing"
+			WriteLine("s2 = " + s2);
+
+			// If the left-hand expression is non-null, the right-hand expression
+			// is never evaluated.
+
+			string s3 = "hello world";
+			string s4 = s3 ?? "nothing";    // s4 evaluates to "hello world
+			WriteLine("s4 = " + s4);
+		}
+
+		static void TestNullConditionalOperator() {
+			// Null-Conditional Operator
+			//
+			// The ?. operator is the null-conditional or "Elvis" operator, and is new
+			// to C# 6. It allows you to call methods and access members just like the
+			// standard dot operator, except that if the operand on the left is null,
+			// the expression evaluates to null instead of throwing a NullReferenceException
+			
+            // Note: "MyStringBuilder" is a Type alias for "System.Text.StringBuilder"
+			MyStringBuilder sb = null;
+
+			string s1 = sb?.ToString(); // no error; s instead evaluates to null
+			string s2 = (sb == null ? null : sb.ToString()); // equivalent code
+
+            WriteLine($"s1 = { s1 }");
+            WriteLine($"s2 = { s2 }");
+		}
+
+		static void TestIterationStatements() {
+			// while loops repeatedly execute a body of code while a bool expression is true
+			int i = 0;
+			while (i < 3) {
+				WriteLine("while i: " + i);
+				i++;
+			}
+
+			// do-while loops differ in functionality from while loops only in that
+			// they test the expression after the statement block has executed, ensuring
+			// that the block is always executed at least once.
+			WriteLine("\n");
+
+			int j = 0;
+			do {
+				WriteLine("do-while j: " + j);
+				j++;
+			} while (j < 3);
+
+			// for loops are like while loops with special clauses for initialization
+			// and iteration of a loop variable.
+			WriteLine("\n");
+
+			for (int l = 0; l < 3; l++)
+				WriteLine("for l: " + l);
+
+			// the foreach statement iterates over each element in an enumerable object.
+			// Most of the types in C# and the .NET Framework that represent a set or list
+			// of elements are enumerable.
+			WriteLine("\n");
+
+			foreach (char c in "beer") // c is the iteration variable
+                WriteLine("foreach c: " + c);
 		}
 
 		#region Implementation Details
@@ -270,7 +344,7 @@ namespace Basics {
 		// The params modifier may be specified on the last parameter of a 
 		// method so that the method accepts any number of arguments of a
 		// particular type. The parameter type must be declared as an array.
-		static int sum(params int[] ints) {
+		static int GetSumOf(params int[] ints) {
 			int sum = 0;
 			for (int i = 0; i < ints.Length; i++)
 				sum += ints[i];
@@ -299,94 +373,20 @@ namespace Basics {
 		}
 		#endregion
 
-		#region Null Operators
-
-		// Null-Coalescing Operator
-		//
-		// The ?? operator is the null-coalescing operator.
-		// It says "If the operand is non-null, give it to me; otherwise,
-		// give me a default value. For example:
-		static void TestNullCoalescingOperator() {
-			string s1 = null;
-			string s2 = s1 ?? "nothing";    // s2 evaluates to "nothing"
-			WriteLine("s2 = " + s2);
-
-			// If the left-hand expression is non-null, the right-hand expression
-			// is never evaluated.
-
-			string s3 = "hello world";
-			string s4 = s3 ?? "nothing";    // s4 evaluates to "hello world
-			WriteLine("s4 = " + s4);
-		}
-
-		// Null-Conditional Operator
-		//
-		// The ?. operator is the null-conditional or "Elvis" operator, and is new
-		// to C# 6. It allows you to call methods and access members just like the
-		// standard dot operator, except that if the operand on the left is null,
-		// the expression evaluates to null instead of throwing a NullReferenceException
-		static void TestNullConditionalOperator() {
-			// Note: "MyStringBuilder" is a Type alias for "System.Text.StringBuilder"
-			MyStringBuilder sb = null;
-
-			string s1 = sb?.ToString(); // no error; s instead evaluates to null
-			string s2 = (sb == null ? null : sb.ToString()); // equivalent code
-
-			WriteLine("s1 = " + s1);
-			WriteLine("s2 = " + s2);
-		}
-
-		#endregion
-
-		#region Iteration Statements
-
-		static void TestIterationStatements() {
-			// while loops repeatedly execute a body of code while a bool
-			// expression is true
-			int i = 0;
-			while (i < 3) {
-				WriteLine("while i: " + i);
-				i++;
-			}
-
-			// do-while loops differ in functionality from while loops only in that
-			// they test the expression after the statement block has executed, ensuring
-			// that the block is always executed at least once.
-			WriteLine("\n");
-
-			int j = 0;
-			do {
-				WriteLine("do-while j: " + j);
-				j++;
-			} while (j < 3);
-
-			// for loops are like while loops with special clauses for initialization
-			// and iteration of a loop variable.
-			WriteLine("\n");
-
-			for (int l = 0; l < 3; l++)
-				WriteLine("for l: " + l);
-
-			// the foreach statement iterates over each element in an enumerable object.
-			// Most of the types in C# and the .NET Framework that represent a set or list
-			// of elements are enumerable.
-			WriteLine("\n");
-
-			foreach (char c in "beer") // c is the iteration variable
-				WriteLine("foreach c: " + c);
-		}
-		#endregion
-
 		#endregion
 	}
 }
 
 #region Helpers
+
 public class UnitConverter {
 	int ratio;
 	public UnitConverter(int unitRatio) { ratio = unitRatio; }
 	public int Convert(int unit) { return unit * ratio; }
 }
+
 public class PointClass { public int x, y; }
+
 public struct Point { public int x, y; }
+
 #endregion
