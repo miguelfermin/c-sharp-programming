@@ -193,13 +193,12 @@ namespace Types
 			// Boxing copies the value-type instance into the new object, and unboxing copies
 			// the contents of the object back into a value-type instance.
 			//
-			// In the following example, changing the value if i doesn't change its previously
+			// In the following example, changing the value of i doesn't change its previously
 			// boxed copy:
 			int i = 3;
 			object boxed = i;
 			i = 5;
 			WriteLine(boxed);   // 3
-
 		}
 
 		static void TestDriveEnums() {
